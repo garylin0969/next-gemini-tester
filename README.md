@@ -6,7 +6,7 @@
 
 -   Next.js
 -   TypeScript
--   TailwindCSS
+-   Tailwind CSS
 -   Shadcn UI
 -   Gemini
 -   React Query
