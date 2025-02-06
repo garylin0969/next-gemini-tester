@@ -73,7 +73,11 @@ export function ChatRoom({ token, model }: ChatRoomProps) {
     };
 
     return (
-        <div className={cn('flex flex-col h-full border border-slate-600 rounded-lg bg-slate-800/50 shadow-lg')}>
+        <div
+            className={cn(
+                'flex flex-col h-full border border-slate-600 rounded-lg bg-slate-800/50 shadow-lg overflow-hidden'
+            )}
+        >
             <div className={cn('flex-1 overflow-y-auto space-y-4 p-4 min-h-0')}>
                 {messages.map((message, index) => (
                     <ChatMessage key={index} message={message} />
