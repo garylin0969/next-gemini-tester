@@ -8,7 +8,7 @@ export default function Home() {
             </main>
             <footer className="p-4 text-center text-slate-400">
                 <a
-                    href="https://github.com/garylin0969"
+                    href="https://github.com/garylin0969/next-gemini-tester"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-slate-50 transition-colors"
